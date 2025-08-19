@@ -8,10 +8,10 @@ The Revised Repository for AlphaFold3 in Drug Discovery: A Comprehensive Assessm
 
 
 # example-analysis-schrodinger.ipynb - use environment_analysis-struct.yml
-This notebook collects, prepares structures and conducts analysis (using mannually written align-batch-schrodinger-smililarity.py and poseviewer_interactions.py by run_poseviewer_interactions_dir.sh).
+This notebook collects, prepares structures (Schrodinger's PrepWizard through run_prep_dir_cif.sh and run_prep_dir_pdb.sh) and conducts analysis (using mannually written align-batch-schrodinger-smililarity.py and Schrodinger Maestro's poseviewer_interactions.py by run_poseviewer_interactions_dir.sh).
 
 # align-batch-schrodinger-smililarity.py - SBGrid environment needed (or Schordinger environment if using a different Schrodinger)
-This script uses many functions from schordinger to conduct benchmark
+This script uses many functions from schordinger to conduct benchmark.
 
 # CaSR_evaluation.ipynb - use environment_analysis-struct.yml
 This notebook calculates the protein RMSD for CaSR prediction evaluation.
@@ -20,7 +20,7 @@ This notebook calculates the protein RMSD for CaSR prediction evaluation.
 This notebook contains the AF3 input file compilation functions that we used. Example use has been included in the script.
 
 # ternary-schrodinger.ipynb - use environment_analysis-struct.yml
-This notebook uses similar functions with example-analysis-schrodinger.ipynb, but has additional functions for comparing ternary PPI interactions using protein_interaction_analysis.py from Schrodinger
+This notebook uses similar functions with example-analysis-schrodinger.ipynb, but has additional functions for comparing ternary PPI interactions using protein_interaction_analysis.py from Schrodinger Maestro.
 
 # run_prep_dir_cif.sh and run_prep_dir_pdb.sh
 These scripts deal with preparation of structures using Schordinger prepwizard
